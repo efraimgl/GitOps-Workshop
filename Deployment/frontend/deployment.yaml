@@ -58,7 +58,7 @@ spec:
           imagePullPolicy: IfNotPresent
           terminationMessagePolicy: File
          # Update with your image name
-         image: 'quay.io/<<Your-Quay-User>>/<<Your-Image-Name>>:<<Your-image-Tag>>'
+          image: 'quay.io/efglbusiness/frontend-app:v1'
          #
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
